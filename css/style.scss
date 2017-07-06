@@ -1,0 +1,135 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  font-size: 0.18rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  text-align: left;
+  display: -webkit-flex;
+  background-color: #393a3f;
+  color: #fff;
+  h4{
+    -webkit-flex:1;
+    padding-left: .15rem;
+    font-weight: normal;
+    font-size: .15rem;
+  } 
+  .left{
+    padding-left:.1rem;
+  }
+  .right{
+    padding-right:.1rem;
+  }
+}
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; 
+  background-color: #818d9b;
+  position: relative;
+}
+.mark{
+  position: absolute;
+  top:.74rem;
+  bottom: .18rem;
+  left:0.14rem;
+  right: 0.14rem;
+ border-radius: .11rem;
+  margin:auto;
+  background-color: #ffffff;
+}
+.mark-logo{
+ 
+  padding-top: .35rem;
+  dt{
+    padding-left: .96rem;
+    img{
+      width:.78rem;
+      height:.3rem;
+    }
+  }
+  dd{
+    padding-left: .88rem;
+    padding-top: .08rem;
+    font-size: .15rem;
+  }
+}
+.form{
+    padding-left: .24rem;
+    padding-right: .24rem;
+    padding-top: .53rem;
+    label{
+      display: inline-block;
+      height:.4rem;
+      width:2.6rem;
+      border-bottom: 1px solid #ccc;
+      line-height: .4rem;
+      img{
+        width: .15rem;
+        height:.2rem;
+      }
+      input{
+        border: 0;
+        width:2rem;
+        height:.27rem;
+      }
+    }
+    .u-label{
+      position: relative;
+      img{
+        position: absolute;
+        left:.15rem;
+        bottom: .08rem;
+      }
+      .user{
+        position: absolute;
+        left:.37rem;
+        bottom:.02rem;
+        padding-left: .15rem;
+        padding-right: .2rem;
+        box-sizing: border-box;
+      }
+    }
+    .p-label{
+      margin-top: .3rem;
+      position: relative;
+      img{
+        position: absolute;
+        left:.15rem;
+        bottom: .04rem;
+      }
+      .psw{
+        position: absolute;
+        left:.37rem;
+        bottom:.02rem;
+        padding-left: .15rem;
+        padding-right: .2rem;
+        box-sizing: border-box;
+      }
+    }
+
+    .logo-btn{
+      margin-top: .42rem;
+      width:2.5rem;
+      height:.38rem;
+      background-color: #2fba77;
+      border: 0;
+      border-radius: 10px;
+      margin-right: .25rem;
+      color: #bcf9d7;
+    }
+  }
+
+.footer {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+     background-color: #818d9b;
+}
